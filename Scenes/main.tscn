@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8fa4fepoxgqy"]
+
+[ext_resource type="PackedScene" uid="uid://bbwwage1jsch0" path="res://Scenes/player.tscn" id="1_c0njd"]
+[ext_resource type="PackedScene" uid="uid://dhbomxr4xv4pn" path="res://Scenes/enemy.tscn" id="2_3y7fr"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_c0njd")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.5, 0.5)
+
+[node name="Enemy" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(738, -233)
+
+[node name="Enemy2" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(-247, -326)
+
+[node name="Enemy3" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(527, 434)
+
+[node name="Enemy4" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(-458, 341)
+
+[node name="Enemy5" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(281, 18)
+
+[node name="Enemy6" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(-704, -75)
+
+[node name="Enemy7" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(1087, 365)
+
+[node name="Enemy8" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(102, 272)
+
+[node name="Enemy9" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(962, 629)
+
+[node name="Enemy10" parent="." instance=ExtResource("2_3y7fr")]
+position = Vector2(-23, 536)
